@@ -1,0 +1,78 @@
+{
+  "originHash" : "5bb12d4c08624e1747de14734bd67ee908dcf3e624d69c790fdcd20abb5aae76",
+  "pins" : [
+    {
+      "identity" : "eureka",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xmartlabs/Eureka.git",
+      "state" : {
+        "revision" : "b6e35acf77a5551070afa6248935ec68e71f22af",
+        "version" : "5.4.0"
+      }
+    },
+    {
+      "identity" : "lookinserver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QMUI/LookinServer/",
+      "state" : {
+        "revision" : "e553d1b689d147817dc54ad5c28fcff71e860101",
+        "version" : "1.2.8"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "60ea4f82fba8b4cb21a75665a889e86ed4d81c6e",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "mbprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jdg/MBProgressHUD.git",
+      "state" : {
+        "revision" : "bca42b801100b2b3a4eda0ba8dd33d858c780b0d",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "refresh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/egiosa/refresh.git",
+      "state" : {
+        "revision" : "c3651b9e125b4304e6ad3a688a2c2b7d3e13c1e6",
+        "version" : "1.1.7"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "9dcaa4b333db437b0fbfaf453fad29069044a8b4",
+        "version" : "6.6.0"
+      }
+    },
+    {
+      "identity" : "ucache",
+      "kind" : "remoteSourceControl",
+      "location" : "http://gitlab.youzy.cn/ios-framework/UCache.git",
+      "state" : {
+        "revision" : "404e626cba6527d6aafdd210c4ef56d7c586e88d",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "uwidget",
+      "kind" : "remoteSourceControl",
+      "location" : "http://gitlab.youzy.cn/ios-framework/UWidget.git",
+      "state" : {
+        "revision" : "2b3821fd2af415b7d61e0651fa35e42b7c94a2af",
+        "version" : "0.2.7"
+      }
+    }
+  ],
+  "version" : 3
+}

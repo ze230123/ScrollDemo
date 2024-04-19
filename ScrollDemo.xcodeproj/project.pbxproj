@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		842E34802BD10B6100A0F86C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 842E347F2BD10B6100A0F86C /* Base */; };
 		842E34822BD10B6200A0F86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842E34812BD10B6200A0F86C /* Assets.xcassets */; };
 		842E34852BD10B6200A0F86C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 842E34842BD10B6200A0F86C /* Base */; };
+		842E34942BD11C1200A0F86C /* UBase in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34932BD11C1200A0F86C /* UBase */; };
+		842E34972BD11C8F00A0F86C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34962BD11C8F00A0F86C /* Lottie */; };
+		842E34992BD20ECD00A0F86C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E34982BD20ECD00A0F86C /* PageViewController.swift */; };
+		842E349B2BD20F6300A0F86C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E349A2BD20F6300A0F86C /* ScrollViewController.swift */; };
+		842E349E2BD20FC500A0F86C /* UWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 842E349D2BD20FC500A0F86C /* UWidget */; };
+		842E34A02BD240F400A0F86C /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E349F2BD240F400A0F86C /* CustomPageViewController.swift */; };
+		842E34A32BD25B7E00A0F86C /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34A22BD25B7E00A0F86C /* LookinServer */; };
+		842E34A62BD265C400A0F86C /* UBase in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34A52BD265C400A0F86C /* UBase */; };
+		842E34A92BD2669500A0F86C /* UBase in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34A82BD2669500A0F86C /* UBase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,9 @@
 		842E34812BD10B6200A0F86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842E34842BD10B6200A0F86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842E34862BD10B6200A0F86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842E34982BD20ECD00A0F86C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		842E349A2BD20F6300A0F86C /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		842E349F2BD240F400A0F86C /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842E349E2BD20FC500A0F86C /* UWidget in Frameworks */,
+				842E34A62BD265C400A0F86C /* UBase in Frameworks */,
+				842E34942BD11C1200A0F86C /* UBase in Frameworks */,
+				842E34A92BD2669500A0F86C /* UBase in Frameworks */,
+				842E34972BD11C8F00A0F86C /* Lottie in Frameworks */,
+				842E34A32BD25B7E00A0F86C /* LookinServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +77,9 @@
 				842E34782BD10B6100A0F86C /* AppDelegate.swift */,
 				842E347A2BD10B6100A0F86C /* SceneDelegate.swift */,
 				842E347C2BD10B6100A0F86C /* ViewController.swift */,
+				842E34982BD20ECD00A0F86C /* PageViewController.swift */,
+				842E349A2BD20F6300A0F86C /* ScrollViewController.swift */,
+				842E349F2BD240F400A0F86C /* CustomPageViewController.swift */,
 				842E347E2BD10B6100A0F86C /* Main.storyboard */,
 				842E34812BD10B6200A0F86C /* Assets.xcassets */,
 				842E34832BD10B6200A0F86C /* LaunchScreen.storyboard */,
@@ -83,6 +104,14 @@
 			dependencies = (
 			);
 			name = ScrollDemo;
+			packageProductDependencies = (
+				842E34932BD11C1200A0F86C /* UBase */,
+				842E34962BD11C8F00A0F86C /* Lottie */,
+				842E349D2BD20FC500A0F86C /* UWidget */,
+				842E34A22BD25B7E00A0F86C /* LookinServer */,
+				842E34A52BD265C400A0F86C /* UBase */,
+				842E34A82BD2669500A0F86C /* UBase */,
+			);
 			productName = ScrollDemo;
 			productReference = 842E34752BD10B6100A0F86C /* ScrollDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,12 @@
 				Base,
 			);
 			mainGroup = 842E346C2BD10B6100A0F86C;
+			packageReferences = (
+				842E34952BD11C8F00A0F86C /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				842E349C2BD20FC500A0F86C /* XCRemoteSwiftPackageReference "UWidget" */,
+				842E34A12BD25B7E00A0F86C /* XCRemoteSwiftPackageReference "LookinServer" */,
+				842E34A72BD2669500A0F86C /* XCLocalSwiftPackageReference "UBase" */,
+			);
 			productRefGroup = 842E34762BD10B6100A0F86C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +175,10 @@
 			files = (
 				842E347D2BD10B6100A0F86C /* ViewController.swift in Sources */,
 				842E34792BD10B6100A0F86C /* AppDelegate.swift in Sources */,
+				842E34A02BD240F400A0F86C /* CustomPageViewController.swift in Sources */,
+				842E349B2BD20F6300A0F86C /* ScrollViewController.swift in Sources */,
 				842E347B2BD10B6100A0F86C /* SceneDelegate.swift in Sources */,
+				842E34992BD20ECD00A0F86C /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +367,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +403,70 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		842E34A72BD2669500A0F86C /* XCLocalSwiftPackageReference "UBase" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = UBase;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		842E34952BD11C8F00A0F86C /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.2.0;
+			};
+		};
+		842E349C2BD20FC500A0F86C /* XCRemoteSwiftPackageReference "UWidget" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://gitlab.youzy.cn/ios-framework/UWidget.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.2.7;
+			};
+		};
+		842E34A12BD25B7E00A0F86C /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		842E34932BD11C1200A0F86C /* UBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UBase;
+		};
+		842E34962BD11C8F00A0F86C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 842E34952BD11C8F00A0F86C /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		842E349D2BD20FC500A0F86C /* UWidget */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 842E349C2BD20FC500A0F86C /* XCRemoteSwiftPackageReference "UWidget" */;
+			productName = UWidget;
+		};
+		842E34A22BD25B7E00A0F86C /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 842E34A12BD25B7E00A0F86C /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
+		842E34A52BD265C400A0F86C /* UBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UBase;
+		};
+		842E34A82BD2669500A0F86C /* UBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UBase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 842E346D2BD10B6100A0F86C /* Project object */;
 }
