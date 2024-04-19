@@ -361,10 +361,10 @@
             </objects>
             <point key="canvasLocation" x="-2740" y="157"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Base Page View Controller-->
         <scene sceneID="FD0-ro-XG4">
             <objects>
-                <viewController id="hgS-v8-bZD" customClass="PageViewController" customModule="ScrollDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hgS-v8-bZD" customClass="UBasePageViewController" customModule="ScrollDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VKe-G4-luH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

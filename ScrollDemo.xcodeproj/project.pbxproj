@@ -15,7 +15,7 @@
 		842E34852BD10B6200A0F86C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 842E34842BD10B6200A0F86C /* Base */; };
 		842E34942BD11C1200A0F86C /* UBase in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34932BD11C1200A0F86C /* UBase */; };
 		842E34972BD11C8F00A0F86C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 842E34962BD11C8F00A0F86C /* Lottie */; };
-		842E34992BD20ECD00A0F86C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E34982BD20ECD00A0F86C /* PageViewController.swift */; };
+		842E34992BD20ECD00A0F86C /* UBasePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E34982BD20ECD00A0F86C /* UBasePageViewController.swift */; };
 		842E349B2BD20F6300A0F86C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E349A2BD20F6300A0F86C /* ScrollViewController.swift */; };
 		842E349E2BD20FC500A0F86C /* UWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 842E349D2BD20FC500A0F86C /* UWidget */; };
 		842E34A02BD240F400A0F86C /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E349F2BD240F400A0F86C /* CustomPageViewController.swift */; };
@@ -33,7 +33,7 @@
 		842E34812BD10B6200A0F86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842E34842BD10B6200A0F86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842E34862BD10B6200A0F86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		842E34982BD20ECD00A0F86C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		842E34982BD20ECD00A0F86C /* UBasePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBasePageViewController.swift; sourceTree = "<group>"; };
 		842E349A2BD20F6300A0F86C /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		842E349F2BD240F400A0F86C /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				842E34782BD10B6100A0F86C /* AppDelegate.swift */,
 				842E347A2BD10B6100A0F86C /* SceneDelegate.swift */,
 				842E347C2BD10B6100A0F86C /* ViewController.swift */,
-				842E34982BD20ECD00A0F86C /* PageViewController.swift */,
+				842E34982BD20ECD00A0F86C /* UBasePageViewController.swift */,
 				842E349A2BD20F6300A0F86C /* ScrollViewController.swift */,
 				842E349F2BD240F400A0F86C /* CustomPageViewController.swift */,
 				842E347E2BD10B6100A0F86C /* Main.storyboard */,
@@ -178,7 +178,7 @@
 				842E34A02BD240F400A0F86C /* CustomPageViewController.swift in Sources */,
 				842E349B2BD20F6300A0F86C /* ScrollViewController.swift in Sources */,
 				842E347B2BD10B6100A0F86C /* SceneDelegate.swift in Sources */,
-				842E34992BD20ECD00A0F86C /* PageViewController.swift in Sources */,
+				842E34992BD20ECD00A0F86C /* UBasePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

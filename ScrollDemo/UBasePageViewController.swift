@@ -1,5 +1,5 @@
 //
-//  PageViewController.swift
+//  UBasePageViewController.swift
 //  ScrollDemo
 //
 //  Created by youzy on 2024/4/19.
@@ -9,7 +9,7 @@ import UIKit
 import UBase
 import UWidget
 
-class PageViewController: BaseViewController {
+class UBasePageViewController: BaseViewController {
     @IBOutlet weak var scrollView: ScrollView!
     @IBOutlet weak var headerView: UIView!
 
